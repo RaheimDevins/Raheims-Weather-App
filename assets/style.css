@@ -24,12 +24,12 @@ form{
 display: flex;
 justify-content: center;
 
-
-
 }
 
 ul{
   border: 1px solid;
   padding-top: 2px;
-  padding-right: 2px;
+  padding-right: 10px;
+
 }
+
