@@ -13,13 +13,12 @@
   <header>Weather Dashboard</header>
 
   <div>
-    <form>
+
       Search For A City:
       <label for="Search"></label>
       <br>
       <input type="text" id="search-txt">
-      <input type="submit" id="s-Btn" value="Submit">
-    </form>
+      <button id="s-Btn">Search</button>
   </div>
 
   <div id="history" class="hidden">
@@ -27,65 +26,21 @@
   </div>
 
   <main id="current" class="hidden">
-    <h4 id="city" class="hidden"></h4>
-    <h4 id="cTemp" class="hidden">55</h4>
-    <h4 id="cWind" class="hidden">20 MPH</h4>
-    <h4 id="cHumid" class="hidden">10%</h4>
+    <h4 id="city" ></h4>
+    <h4 id="cTemp" class="hidden"></h4>
+    <h4 id="cWind" class="hidden"></h4>
+    <h4 id="cHumid" class="hidden"></h4>
 
   </main>
 
   <section id="fivedays" class="hidden">
-    <div id="After1" class="hidden">
-      <ul>
-        <li id="aDate" class="hidden">00/00/0000</li>
-        <li id="aTemp" class="hidden">89</li>
-        <li id="aWind" class="hidden">7MPH</li>
-        <li id="aHumid" class="hidden">37%</li>
-      </ul>
-    </div>
-
-    <div id="After2" class="hidden">
-      <ul>
-        <li id="aDate" class="hidden">00/00/0000</li>
-        <li id="aTemp" class="hidden">89</li>
-        <li id="aWind" class="hidden">7MPH</li>
-        <li id="aHumid" class="hidden">37%</li>
-      </ul>
-    </div>
-
-    <div id="After3" class="hidden">
-      <ul>
-        <li id="aDate" class="hidden">00/00/0000</li>
-        <li id="aTemp" class="hidden">89</li>
-        <li id="aWind" class="hidden">7MPH</li>
-        <li id="aHumid" class="hidden">37%</li>
-      </ul>
-    </div>
-
-    <div id="After4" class="hidden">
-      <ul>
-        <li id="aDate" class="hidden">00/00/0000</li>
-        <li id="aTemp" class="hidden">89</li>
-        <li id="aWind" class="hidden">7MPH</li>
-        <li id="aHumid" class="hidden">37%</li>
-      </ul>
-    </div>
-
-    <div id="After5" class="hidden">
-      <ul>
-        <li id="aDate" class="hidden">00/00/0000</li>
-        <li id="aTemp" class="hidden">89</li>
-        <li id="aWind" class="hidden">7MPH</li>
-        <li id="aHumid" class="hidden">37%</li>
-      </ul>
-    </div>
-
+   
 
 
   </section>
 
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
   <script src="assets/script.js"></script>
 </body>
 
